@@ -10,7 +10,7 @@ const AboutMe = () => {
               <div className="aspect-square w-full rounded-xl bg-neutral-700 flex items-center justify-center">
                 {/* Rounded Rectangle Image */}
                 <img 
-                  src="./../../public/Image.jpeg" 
+                  src="./Image.jpeg" 
                   alt="Profile" 
                   className="w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 lg:w-[30rem] lg:h-[30rem] object-cover rounded-xl"
                 />
