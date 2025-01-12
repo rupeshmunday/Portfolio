@@ -6,3 +6,14 @@
 body {
   font-family: sans-serif;
 }
+
+html, body {
+  overflow: scroll; /* Enable scrolling */
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer 10+ */
+}
+
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
