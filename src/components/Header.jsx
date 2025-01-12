@@ -6,7 +6,7 @@ const Header = () => {
       <div className="container mx-auto px-6 py-20">
         <div className="flex flex-col items-center justify-center text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-            Hello, I'm <span className="text-blue-500">Developer</span>
+            Hello, I'm <span className="text-blue-500">Rupesh</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl">
             Crafting digital experiences through elegant code and design

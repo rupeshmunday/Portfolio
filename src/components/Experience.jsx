@@ -3,46 +3,15 @@ import React from 'react';
 const Experience = () => {
   const experienceData = [
     {
-      period: '2022 - Present',
-      title: 'Senior Frontend Developer',
-      company: 'Tech Innovation Corp',
+      period: 'Nov - 2022 - April 2024',
+      title: 'Full Stack Developer',
+      company: 'Ongraph Technologies Pvt. Ltd.',
       details: [
         'Led development of multiple high-impact web applications',
         'Managed team of 5 developers',
         'Implemented modern frontend architectures using React and TypeScript',
       ],
     },
-    {
-      period: '2020 - 2022',
-      title: 'Frontend Developer',
-      company: 'Digital Solutions Inc',
-      details: [
-        'Developed responsive web applications',
-        'Collaborated with UX designers',
-        'Optimized application performance',
-      ],
-    },
-    {
-      period: '2019 - 2020',
-      title: 'Junior Web Developer',
-      company: 'StartUp Hub',
-      details: [
-        'Built and maintained client websites',
-        'Implemented responsive designs',
-        'Worked with JavaScript and PHP',
-      ],
-    },
-    // Add more experiences here
-        {
-            period: '2018 - 2019',
-            title: 'Web Development Intern',
-            company: 'Acme Web Solutions',
-            details: [
-                'Assisted senior developers with front-end and back-end tasks.',
-                'Learned about web development best practices and workflows.',
-                'Contributed to small projects and bug fixes.'
-            ]
-        }
   ];
 
   return (

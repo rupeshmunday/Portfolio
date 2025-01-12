@@ -8,7 +8,12 @@ const AboutMe = () => {
           <div className="w-full md:w-1/2 animate__animated animate__fadeInLeft">
             <div className="bg-neutral-800 rounded-2xl p-1">
               <div className="aspect-square w-full rounded-xl bg-neutral-700 flex items-center justify-center">
-                <span className="text-6xl">👨‍💻</span> 
+                {/* Rounded Rectangle Image */}
+                <img 
+                  src="./../../public/Image.jpeg" 
+                  alt="Profile" 
+                  className="w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 lg:w-[30rem] lg:h-[30rem] object-cover rounded-xl"
+                />
               </div>
             </div>
           </div>
